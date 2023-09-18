@@ -1,7 +1,7 @@
 <h1> dlchatbot </h1>
 
 A similarity-search based chatbot built using
-``` Langchain,OpenAI embeddings,Pinecone Vectordatabase ``` <br/>
+``` Langchain,OpenAI embeddings,Pinecone Vectordatabase and NeMO-Guardrails ``` <br/>
 The chatbot answers questions from the book: Deep Learning with Python by Francois Chollet
 
 <h2> Implementation </h2>
@@ -10,4 +10,12 @@ The chatbot answers questions from the book: Deep Learning with Python by Franco
 streamlit run app.py
 ```
 
-![image](https://github.com/redknight648/dlchatbot/assets/97392797/cd94e235-5226-49b8-b6b1-0d39f34ff1ba)
+<h3> Querying the bot</h3>
+<img src="assets/query.png" />
+
+<h3>Testing the guardrails</h3>
+<img src="assets/guardrails.png" />
+
+
+
+
